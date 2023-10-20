@@ -1,0 +1,47 @@
+.home {
+    margin-top: 150px;
+
+    .home__list {
+        display: flex;
+        align-items: center;
+    }
+
+    .home__h3 {
+        max-width: 445px;
+        width: 100%;
+        color: #36536B;
+        font-family: "DM Serif Display";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: -0.369px;
+    }
+
+    .home__text {
+        max-width: 445px;
+        width: 100%;
+        color: #6C8294;
+        font-family: "Public Sans";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+    }
+}
+@media only screen and (max-width:847px) {
+    .home__list {
+        flex-direction: column;
+    }
+    .home__text {
+        max-width: 573px;
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width:460px) {
+    .home__text {
+        max-width: 328px;
+        width: 100%;
+    }
+}
